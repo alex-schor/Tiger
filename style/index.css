@@ -1,0 +1,94 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #282828;
+}
+
+.infobar {
+  height: 1.25em;
+  width: 100vw;
+  background-color: #508f4a;
+  line-height: 1.25em;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Oxygen", sans-serif;
+  color: white;
+}
+
+.cmd {
+  background-color: #191919;
+  height: 2.5em;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  line-height: 2.5em;
+  font-size: 1.25em;
+  color: white;
+  font-family: "Oxygen", sans-serif;
+}
+
+.prompt {
+  color: #92d991;
+}
+
+.cmd .editable:focus {
+  outline: 0px solid transparent;
+}
+
+.time {
+  color: #9F9F9F;
+}
+
+.task .circle {
+  width: 0.5em;
+  height: 0.5em;
+  float: left;
+  border-radius: 0.25em;
+  margin-top: 0.75em;
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+}
+
+.task {
+  width: 100vw;
+  height: 2em;
+  font-size: 1.25em;
+  line-height: 2em;
+  background-color: #373938;
+  color: white;
+  font-family: "Oxygen", sans-serif;
+}
+
+.task:nth-child(2n) {
+  background-color: #4E4A48;
+}
+
+.shortcut {
+  color: #969596;
+  font-family: "Oxygen", sans-serif;
+  float:right;
+  margin-right: 0.5em;
+  
+}
+
+span.good {
+  color: #32D063;
+}
+
+circle.good, .good .circle {
+  background-color: #32D063;
+}
+
+span.med {
+  color: #9FA32D;
+}
+
+circle.med, .med .circle {
+  background-color: #9FA32D;
+}
